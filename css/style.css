@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    background: #ccc;
+    border: 1px solid #000;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    
+}
+
+.fields, .fields-revers { 
+    display: flex;
+}
+.fields-revers { 
+    flex-direction: row-reverse;
+}
+
+
+.field { 
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background: #000;
+}
+.white {
+    background: #fff;
+}
+.green {
+    background: greenyellow;
+}
+.blue {
+    background: blue;
+}
